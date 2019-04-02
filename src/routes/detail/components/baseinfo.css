@@ -1,0 +1,31 @@
+.baseinfo{
+    display: flex;
+    margin-top: 10px;
+}
+.info_detail{
+    flex: 1;
+}
+.info_poster{
+    width: 100px;
+    height: 150px;
+    background-size: cover;
+    background-color: aliceblue;
+}
+.info_name{
+    color: #fff;
+    margin: 0 0 8px;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.info_title, .info_other{
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.8;
+    font-weight: 500;
+}
+.info_title{
+    margin-bottom: 14px;
+}
+.info_other{
+    margin-top: 8px;
+}

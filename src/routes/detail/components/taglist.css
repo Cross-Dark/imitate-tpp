@@ -1,0 +1,17 @@
+.taglist{
+
+}
+.taglist_item{
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 0 7px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 6px 6px 0 0;
+    display: inline-block;
+}
+
+.taglist_activ{
+    border-color: rgb(233, 118, 118);
+    color: rgb(233, 118, 118);
+}

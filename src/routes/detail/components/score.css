@@ -1,0 +1,49 @@
+.score_top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.score_item {
+
+}
+.score_value{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.score_title{
+    font-size: 12px;
+    color: rgb(177, 173, 173);
+}
+.score_btn{
+    display: flex;
+}
+.scoreBtn_item{
+    flex: 1;
+    border-radius: 5px; 
+    border: none;
+    outline: none;
+    height: 46px;
+    line-height: 46px;
+    background-color: #f5f5f5;
+    text-align: center;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scoreBtn_seen{
+    margin-left: 20px;
+}
+.scoreBtn_item i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.scoreBtn_want i{
+    background: url('../../../icons/heart.svg') 50% / contain no-repeat;
+}
+.scoreBtn_seen i{
+    background: url('../../../icons/star.svg') 50% / contain no-repeat;
+}

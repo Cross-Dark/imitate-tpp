@@ -1,0 +1,40 @@
+.artist{
+    
+}
+.artist_list{
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* 在ios中加 流畅 */
+    -webkit-overflow-scrolling: touch;
+}
+/* 隐藏元素滚动条 css3属性 兼容性不好*/
+.artist_list::-webkit-scrollbar{
+    display: none;
+}
+.artist_list li{
+    padding-right: 10px;
+}
+.artist_info{
+    width: 80px;
+    display: block;
+    text-align: center;
+}
+.artist_img{
+    width: 80px;
+    height: 110px;
+    background-size: cover;
+    
+}
+.artist_name{
+    font-size: 14px;
+    color: black;
+    margin: 5px 0;
+}
+.artist_job{
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+}

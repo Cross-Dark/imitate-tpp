@@ -1,0 +1,18 @@
+.foldtext{
+    position: relative;
+    font-size: 14px;
+    line-height: 28px;
+}
+.foldtext_big{
+    /* height: 84px;  */
+    overflow: hidden;  
+}
+.foldtext_lab{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #539ae6;
+    padding: 0 6px 0 15px;
+    background: #fff;
+    opacity: 0.8;
+}

@@ -1,0 +1,44 @@
+.tp_tag{
+    display: inline-block;
+    padding: 2px 4px;
+    font-size: 12px;
+    border-radius: 4px;   
+}
+.tp_tag:nth-child(n + 2){
+    margin-left: 6px;
+}
+.red{
+    color: rgb(236, 54, 151);
+    border: 1px solid rgb(236, 54, 151); 
+}
+.blue{
+    color: skyblue;
+    border: 1px solid skyblue;
+}
+.tp_btn{
+    width: 50px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    background-color: #EF6D83;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+}
+.operator{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+}
+.operator .icon{
+    width: 40px;
+    height: 40px;
+}
+/* 文本截断，缩率 */
+.line_ellipsis{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

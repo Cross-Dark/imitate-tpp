@@ -1,0 +1,68 @@
+@import '../../../until.css';
+.movieItem{
+    display: flex;
+    padding: 16px 0px;
+}
+.movieItem:nth-child(n+2){
+    border-top: 1px solid #e4e4e4;
+}
+.movie_poster{
+    width: 66px;
+    height: 96px;
+    overflow: hidden;
+}
+.movie_poster img{
+    width: 100%;
+    height: 100%;
+}
+.movie_detail{
+    flex: 1;
+    margin: 0 14px;
+}
+.movie_btn{
+    width: 80px;
+}
+.movie_name{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.movie_score{
+    font-size: 9px;
+    color: #323332;
+    margin-top: 6px;
+    letter-spacing: 2px;
+}
+.movie_score span{
+    font-size: 14px;
+    color: #ffa54b;
+    margin-left: 5px;
+    font-weight: bold;
+
+}
+.movie_director, .movie_actor{
+    font-size: 12px;
+    color: #777777;
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
+.movie_actor{
+    margin-top: 2px;
+}
+.movie_tag{
+    margin-top: 4px;
+    width: 123px;
+}
+.movie_btn{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movie_price{
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 4px;
+}
